@@ -78,9 +78,6 @@ header{
 .nav-link:hover{
     color: #D40000;
 }
-.nav-info {
-    
-}
 .social{
     display: flex;
     justify-content: space-between;
