@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -261,7 +262,7 @@
                         </div>
                         <div>
                             <h3 class="title-h3">Более 2-х лет опыта</h3>
-                            <p class="advantages-description">Это моя основная деятельность,создано более 150+ сайтов</p>
+                            <p class="advantages-description">Это моя основная деятельность, создано более 150+ сайтов</p>
                         </div>
                     </div>
                     <div class="advantages-item">
@@ -332,6 +333,22 @@
                     </div>
                 </div>
             </section>
+            <section class="section-tech">
+                <div class="tech">
+                    <div class="tech-item">
+                        <img src="img/tech/html.svg" alt="HTML" title="Язык гипертекстовой разметки">
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/tech/css.svg" alt="CSS" title="Каскадные таблицы стилей">
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/tech/java.svg" alt="JavaScript" title="Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам">
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/tech/jquery.svg" alt="jQuery" title="Популярная библиотека JavaScript">
+                    </div>
+                </div>
+            </section>
         </div>
             <footer>
 
@@ -343,6 +360,7 @@
     <script>
         $( function() {
         $("#tabs").tabs({ active: 0});
+        $( document ).tooltip();
         } );
     </script>
 </body>
